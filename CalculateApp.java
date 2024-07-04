@@ -1,7 +1,6 @@
 import java.util.Scanner;
 class caluclateApp
 {  
-   //NON RETURN TYPE
    static void addNumber()
    {  
       Scanner input=new Scanner(System.in);
@@ -31,7 +30,7 @@ class caluclateApp
 	   int sub = n1 - n2;
 	   System.out.println("Subtraction : "+sub);
    }
-   //RETURN TYPE
+   
    static double divaideNumber()
    {  
       Scanner input=new Scanner(System.in);
@@ -71,7 +70,7 @@ class caluclateApp
 	   return mul;
    }   
 	   
-   //MAIN METHOD
+   
    public static void main(String []args)
    {
     System.out.println("            ");
@@ -105,7 +104,5 @@ class caluclateApp
     System.out.println("-THANK YOU-");
     System.out.println("------------");
 
-
-   
    }
 }
