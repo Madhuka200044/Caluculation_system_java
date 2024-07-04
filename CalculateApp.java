@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class caluclateApp
 {  
-   //non-return type
+   //NON RETURN TYPE
    static void addNumber()
    {  
       Scanner input=new Scanner(System.in);
@@ -16,7 +16,7 @@ class caluclateApp
 	   int add = n1 + n2;
 	   System.out.println("ADDITION : "+add);
    }
-   //return type
+   //RETURN TYPE
    static double divaideNumber()
    {  
       Scanner input=new Scanner(System.in);
