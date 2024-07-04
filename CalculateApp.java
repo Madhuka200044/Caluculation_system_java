@@ -16,6 +16,21 @@ class caluclateApp
 	   int add = n1 + n2;
 	   System.out.println("ADDITION : "+add);
    }
+
+   static void subtractionNumber()
+   {  
+      Scanner input=new Scanner(System.in);
+
+      System.out.println("Enter the numbr 1 :");
+      int n1 = input.nextInt();
+
+      
+      System.out.println("Enter the numbr 2 :");
+      int n2 = input.nextInt();
+
+	   int sub = n1 - n2;
+	   System.out.println("Subtraction : "+sub);
+   }
    //RETURN TYPE
    static double divaideNumber()
    {  
@@ -59,14 +74,22 @@ class caluclateApp
    public static void main(String []args)
    {
     System.out.println("Calculer App");
+
     System.out.println("------------");
     System.out.println("            ");
     System.out.println("Addition");
 	 caluclateApp.addNumber();
+
+    System.out.println("------------");
+    System.out.println("            ");
+    System.out.println("Subtraction");
+	 caluclateApp.subtractionNumber();
+
      System.out.println("------------");
     System.out.println("            ");
     System.out.println("Division ");
 	 caluclateApp.divaideNumber();
+
      System.out.println("------------");
     System.out.println("            ");
     System.out.println("Mulitification");
