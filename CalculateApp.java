@@ -43,10 +43,11 @@ class caluclateApp
       System.out.println("Enter the numbr 2 :");
       double d2 =input.nextDouble();
 
-      if (d2 == 0) {
+      if (d2 == 0) 
+      {
             System.out.println("Error: Division by zero is not allowed.");
             return 0; // Return 0 if division by zero
-        }
+      }
         
 
 	   double div=d1/d2;
