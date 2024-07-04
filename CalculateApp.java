@@ -6,11 +6,11 @@ class caluclateApp
    {  
       Scanner input=new Scanner(System.in);
 
-      System.out.println("Enter the numbr 1 :");
+      System.out.println("Enter the number 1 :");
       int n1 = input.nextInt();
 
       
-      System.out.println("Enter the numbr 2 :");
+      System.out.println("Enter the number 2 :");
       int n2 = input.nextInt();
 
 	   int add = n1 + n2;
@@ -21,11 +21,11 @@ class caluclateApp
    {  
       Scanner input=new Scanner(System.in);
 
-      System.out.println("Enter the numbr 1 :");
+      System.out.println("Enter the number 1 :");
       int n1 = input.nextInt();
 
       
-      System.out.println("Enter the numbr 2 :");
+      System.out.println("Enter the number 2 :");
       int n2 = input.nextInt();
 
 	   int sub = n1 - n2;
@@ -36,11 +36,11 @@ class caluclateApp
    {  
       Scanner input=new Scanner(System.in);
 
-      System.out.println("Enter the numbr 1 :");
+      System.out.println("Enter the number 1 :");
       double d1 =input.nextDouble();
 
       
-      System.out.println("Enter the numbr 2 :");
+      System.out.println("Enter the number 2 :");
       double d2 =input.nextDouble();
 
       if (d2 == 0) 
@@ -59,11 +59,11 @@ class caluclateApp
    {  
       Scanner input=new Scanner(System.in);
 
-      System.out.println("Enter the numbr 1 :");
+      System.out.println("Enter the number 1 :");
       int n1 = input.nextInt();
 
       
-      System.out.println("Enter the numbr 2 :");
+      System.out.println("Enter the number 2 :");
       int n2 = input.nextInt();
 
 	   int mul=n1*n2;
@@ -74,7 +74,10 @@ class caluclateApp
    //MAIN METHOD
    public static void main(String []args)
    {
-    System.out.println("Calculer App");
+    System.out.println("            ");
+    System.out.println("------------");
+    System.out.println("Calculater App");
+    System.out.println("    ----      ");
 
     System.out.println("------------");
     System.out.println("            ");
@@ -95,5 +98,14 @@ class caluclateApp
     System.out.println("            ");
     System.out.println("Mulitification");
 	 caluclateApp.multipingNumber();
+    System.out.println("            ");
+
+
+    System.out.println("------------");
+    System.out.println("-THANK YOU-");
+    System.out.println("------------");
+
+
+   
    }
 }
